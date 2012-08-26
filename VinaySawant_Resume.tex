@@ -1,0 +1,166 @@
+%% start of file `template_en.tex'.
+%% Copyright 2007 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+\documentclass[11pt,a4paper]{moderncv}
+% moderncv themes
+%\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[green]{classic}                % idem
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+\usepackage{hyperref}
+\usepackage{comment}
+% customizing link colors and formatting
+\hypersetup{
+colorlinks=true,
+urlcolor=cyan}
+%\hypersetup{a4paper=true}
+\usepackage{color}
+\definecolor{iorange}{RGB}{243,110,36}
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+\recomputelengths                             % required when changes are made to page layout lengths
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%PERSONAL DATA%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% personal data
+\firstname{Vinay}
+\familyname{Sawant}
+\title{Resume}               % optional, remove the line if not wanted
+\address{\hspace{-1in}79/1B,Shahaji Raje Bldg\\Nr Banakar Garden,Hadapsar,}{Pune- 411028}    % optional, remove the line if not wanted
+\mobile{\textcolor{red}{mobile +91-8983537749}}                    % optional, remove the line if not wanted
+%\phone{(020) 640-12019}                      % optional, remove the line if not wanted
+\email{vinaysawant2012@gmail.com}                      % optional, remove the line if not wanted
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%CAREER OBJECTIVE%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace{.2in}\section{Career Objective}
+\cvline{}{\small Seeking a challenging career by giving all my skills to my profession and awaiting for an initiative role.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%EDUCATION%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace{.2in}\section{Education}
+\cventry{2008-2012}{BE - Computer Engineering}{}{University of Pune}{}{Scored 65.26\%}  
+\cventry{2007-2008}{HSC}{MSBSHSE}{Pune}{IN}{Scored 69.00\%}  % arguments 3 to 6 are optional
+\cventry{2005-2006}{SSC}{MSBSHSE}{Pune}{IN}{Scored 78.40\%.}  % arguments 3 to 6 are optional
+
+%\section{Master thesis}
+%\cvline{title}{\emph{Title}}
+%\cvline{supervisors}{Supervisors}
+%\cvline{description}{\small Short thesis abstract}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%TECHNICAL SKILLS%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\cvcomputer{}{} {}{}
+
+\vspace{.2in}\section{Technical Skills} 
+\cvcomputer{\textbf{Platforms}}{GNU/Linux(Debian,Fedora),Android \\ Microsoft\textsuperscript{\textregistered} Windows\textsuperscript{\textregistered}.}{\textbf{Programming Languages}}{C,C++,Java,Ruby, Python \\ PHP,JavaScript,CSS,HTML} {}{}
+\cvcomputer{\textbf{Frameworks}}{Ruby on Rails,Hadoop}{\textbf{CMS}}{Joomla}
+\cvcomputer{\textbf{Databases}}{MySQL, Oracle 10g, MS-Access}  {\textbf{Development Tools}}{vim, git, eclipse, latex}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%EXPERIENCE&SEMINAR%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace{.2in}\section{Seminar}
+\cventry
+{March 2011}
+{Android Application Development}
+{JSCOE}
+{Speaker}
+{}
+{Presented this seminar as part of curriculum with Live Demo using Android SDK,eclipse}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%Projects%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace{.2in}\section{Projects}
+\vspace{.1in}\subsection{Curriculum}
+%\vspace{.2in}
+\cvlistitem
+{\textbf{Automatic Monitoring and Speed Violation Ticket System| SpeedTicket}  
+  \\Worked on this project as final year project.To generate speed tickets against cars(Ower) who crosses speed limit on roads and ignores warnings given by system. Used Java,Python,C, MySQL, Flash Magic ,uKeil for this project.
+}
+
+\cvlistitem
+{
+  \textbf{Android app for sending SMS| SendSMS}
+  \\Used android SDK and eclipse.
+}
+
+\cvlistitem
+{
+  \textbf{Placement Management Website }
+  \\Designed Placement Management System for college.Used PHP,MySQL,HTML,CSS,
+  \\Apache2 (LAMP Server).
+}
+\cvlistitem
+{
+  \textbf{Hotel Management System }
+  \\Implemented Hotel Management System.Used VB 6.0, Oracle 10g .
+}
+\vspace{.1in}\subsection{Other FOSS}
+\cventry
+{\textbf{\textcolor{blue}{GitHub}}}
+{Personal Profile: \url{https://github.com/vinaysawant}}
+{}{}{}{}\\
+\cvlistitem
+{
+  \textbf{BunkSheet }
+  \\Working on BunkSheet which keeps track of bunked lectures.
+  \\Used Ruby on Rails,MySQL,Deployed on heroku.
+  \\\url{bunksheet.herokuapp.com}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%Co-Curricular%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace{.2in}\section{Co-Curricular}
+\subsection{Talks and Workshops attended}
+\cvlistitem {{GNUnify 2011}}
+\cvlistitem {{JoomlaDay 2011}}
+\cvlistitem {{Participated at various inter-college level events}}
+\cvlistitem {{Seminar in Persistent Systems on Cloud Computing (Cloud Camp). }}
+
+%\vspace{.2in}\section{Achievements}
+%\cvline{Drawing}{\small Passed Elementary with grade B and Intermediate with grade \textbf{"A"}  }
+%\cvline{Curricular}{\small \textbf{1st} Highest scorer in subject Engineering Graphics in First Year } 
+
+\vspace{.2in}\section{Qualities}
+\cvline{Personal Skills}{Good software engineering skills, strong analytical, problem-solving and communication skills, \textbf{eager to learn and develop new skills}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%INTERESTS%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{.2in}\section{Interests and Hobbies}
+\cvline{Drawing}{\small In my leisure time I used to draw skeches and some hands on animation tools }
+\cvline{Trekking}{\small Every year in december} 
+\cvline{Cooking}{\small I love to cook for friends and family}
+
+%\begin{comment}
+\vspace{.2in}\section{Declaration}
+{\cvline{}{\small I hereby declare that all the above information provided is true to the best of my knowledge and will be responsible for my candidature.}}
+\\
+\\
+{\cvline{Date :\hfill} {{\hfill(Vinay Ravindra Sawant)}}
+%\end{comment}
+\closesection{}                   % needed to renewcommands
+\renewcommand{\listitemsymbol}{-} % change the symbol for lists
+\end{document}
